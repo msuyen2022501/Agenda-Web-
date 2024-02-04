@@ -1,0 +1,85 @@
+body {
+    font-family: Garamond, sans-serif;
+    margin: 20px;
+    background-image: url('https://img.freepik.com/foto-gratis/endecha-plana-burbujas-chat-receptor-telefono-espacio-copia_23-2148796079.jpg?w=826&t=st=1706996609~exp=1706997209~hmac=76c843af5c39ef914d75b6bbdc6c79b3dd4a378b87dcd8a1addc6c980aea759b');
+}
+
+h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+li:hover {
+    background-color: #f5f5f5;
+    transform: scale(1.02);
+}
+
+.navigation a {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Garamond, sans-serif;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid #000; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Garamond, sans-serif;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; 
+    text-decoration: none;
+    font-size: 18px;
+    color: #000; 
+}
+
+.navigation a:hover {
+    transform: scale(1.03);
+    color: #fff; 
+}
+
+.navigation a.favorites {
+    background-color: #2a4a5f;
+}
+
+.navigation a.favorites:hover {
+    transform: scale(1.03);
+}
+
+.navigation a.profile {
+    background-color: #b92419;
+    text-align: center;
+}
+
+.navigation a.profile:hover {
+    transform: scale(1.03);
+}
+
+.navigation a.pending {
+    background-color: #32566e;
+}
+
+.navigation a.pending:hover {
+    transform: scale(1.03);
+}

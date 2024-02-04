@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactos</title>
+    <link rel="stylesheet" href="../styles/style-contacto.css" /> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+    <div class="navigation">
+        <a href="../pages/favoritos.html"><i class="fas fa-star"></i> Favoritos</a>
+        <a href="../pages/perfilUsuario.html"><i class="fas fa-user"></i> Mi Perfil</a>
+        <a href="../pages/list.html"><i class="fas fa-tasks"></i> Pendientes</a>
+    </div>
+
+    <h2>Contactos</h2>
+
+    <ul>
+        <li onclick="viewContactDetails('Diego Marroquin')">Diego Marroquin</li>
+        <li onclick="viewContactDetails('Lucciano Maquin')">Lucciano Maquin</li>
+        <li onclick="viewContactDetails('Brandon Marroquin')">Brandon Marroquin</li>
+        <li onclick="viewContactDetails('Luis Vaquin')">Luis Vaquin</li>
+        <li onclick="viewContactDetails('Braulio Echeverria')">Braulio Echeverria</li>
+    </ul>
+
+    <button class="add-contact-btn" onclick="goToAddContactPage()">
+        Agregar Nuevo Contacto
+    </button>
+
+    <a href="/index.html" class="logout-link">Cerrar Sesión</a>
+        
+    <script src="../scripts/script-contactos.js"></script>
+</body>
+</html>

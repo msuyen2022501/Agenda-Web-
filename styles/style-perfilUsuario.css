@@ -1,0 +1,107 @@
+body {
+    font-family: 'Garamond', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url('https://img.freepik.com/foto-gratis/bodegon-redes-sociales-corazon-flecha_23-2149019242.jpg?w=826&t=st=1707012604~exp=1707013204~hmac=6b46f51d1597845973fb5da2b24129bf00685d5df1d586d019a91d437d97f164') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.add-contact-btn,
+.logout-link,
+.navigation a {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Garamond, sans-serif;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+}
+
+.add-contact-btn {
+    background-color: #2a4a5f;
+}
+
+.add-contact-btn:hover {
+    transform: scale(1.03);
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Garamond, sans-serif;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+}
+
+.navigation a:hover {
+    transform: scale(1.03);
+    color: #fff;
+}
+
+.navigation a.favorites {
+    background-color: #2a4a5f;
+}
+
+.navigation a.favorites:hover {
+    transform: scale(1.03);
+}
+
+.navigation a.profile {
+    background-color: #b92419;
+}
+
+.navigation a.profile:hover {
+    transform: scale(1.03);
+}
+
+.navigation a.pending {
+    background-color: #32566e;
+}
+
+.navigation a.pending:hover {
+    transform: scale(1.03);
+}
+
+img {
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+
+.button-link {
+    display: inline-block;
+    margin: 5px;
+    padding: 15px 19px;
+    background-color: #062e589f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button-link:hover {
+    background-color: #024b9979;
+}

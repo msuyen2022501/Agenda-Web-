@@ -1,0 +1,198 @@
+body {
+    font-family: 'Garamond', sans-serif;
+    margin: 20px;
+    background-image: url('https://img.freepik.com/foto-gratis/vista-superior-vasos-plastico-unidos-cuerdas-burbujas-chat_23-2148796060.jpg');
+    background-color: #f4f4f4;
+}
+
+h2 {
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.add-contact-btn,
+.logout-link,
+.navigation a {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Garamond, sans-serif;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.add-contact-btn {
+    background-color: #2a4a5f;
+    color: #fff;
+}
+
+.add-contact-btn:hover {
+    transform: scale(1.03);
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 1px solid #000; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Garamond, sans-serif;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; 
+    text-decoration: none;
+    font-size: 18px;
+    color: #000; 
+}
+
+.navigation a:hover {
+    transform: scale(1.03);
+    color: #fff; 
+}
+
+.navigation a.favorites {
+    background-color: #2a4a5f;
+}
+
+.navigation a.favorites:hover {
+    transform: scale(1.03);
+}
+
+.navigation a.profile {
+    background-color: #b92419;
+    text-align: center;
+}
+
+.navigation a.profile:hover {
+    transform: scale(1.03);
+}
+
+.navigation a.pending {
+    background-color: #32566e;
+}
+
+.navigation a.pending:hover {
+    transform: scale(1.03);
+}
+
+#contenedorContactos {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contenedorContactos h3 {
+    text-align: center;
+}
+
+#listaContactos li {
+    margin-bottom: 8px;
+}
+
+.add-contact-btn {
+    background-color: #2a4a5f;
+    color: #fff;
+}
+
+.add-contact-btn:hover {
+    transform: scale(1.03);
+}
+
+#contenedorContactos {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.849);
+    text-align: center;
+}
+
+#contenedorContactos h3 {
+    font-size: 24px; 
+    color: #333;
+}
+
+#listaContactos {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #e6e6e6; /* Cambiar el color de fondo */
+    border: 1px solid #ccc; /* Añadir borde alrededor de la lista */
+    border-radius: 8px; /* Agregar esquinas redondeadas al cuadro */
+    padding: 10px; /* Agregar un poco de espacio interno */
+}
+
+#listaContactos li {
+    margin-bottom: 8px;
+    position: relative;
+    font-size: 20px;
+    transition: transform 0.3s ease-in-out;
+    padding: 8px; /* Agregar espacio interno a cada elemento de la lista */
+    border-radius: 4px; /* Agregar esquinas redondeadas a cada elemento */
+}
+
+#listaContactos li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+#listaContactos li::after {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#listaContactosHeader::after {
+    content: none;
+}

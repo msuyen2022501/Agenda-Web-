@@ -1,0 +1,179 @@
+body {
+    font-family: 'Garamond', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    text-align: center; 
+    background-image: url('https://img.freepik.com/foto-gratis/redes-sociales-bodegon-plano-laico_23-2149019145.jpg?w=826&t=st=1707019614~exp=1707020214~hmac=be4e78adf5bd21b18f7b820b61971853e2704dea18281e66c4d947c306c7b186');
+}
+
+#navbar {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+
+#navbar h1 {
+    margin: 0;
+}
+
+#todo-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff93;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #0a0a0a;
+}
+
+.task-input {
+    margin-bottom: 10px;
+    font-family: 'Garamond', sans-serif;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #062e589f;
+    color: #ffffff;
+    font-family: 'Garamond', sans-serif;
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover,
+.button-link.edit-button:hover {
+    background-color: #024b9979;
+    transform: scale(1.05); 
+}
+
+.navigation a:hover {
+    transform: scale(1.03);
+    color: #fff;
+    font-size: 19px; 
+}
+
+.button-link.edit-button {
+    background-color: #062e589f;
+    color: #ffffff;
+}
+
+.button-link.edit-button:hover {
+    background-color: #024b9979;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todoItem {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #007bff;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.todoItem:hover {
+    background-color: #f0f0f0;
+}
+
+.priority {
+    margin-right: 15px;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.logout-link,
+.navigation a {
+    display: block;
+    margin: 5px auto; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Garamond, sans-serif;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.add-contact-btn {
+    background-color: #2a4a5f;
+    color: #fff;
+}
+
+.add-contact-btn:hover {
+    transform: scale(1.03);
+}
+
+.navigation a {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000; 
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Garamond, sans-serif;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; 
+    text-decoration: none;
+    font-size: 18px;
+    color: #000; 
+}
+
+.navigation a:hover {
+    transform: scale(1.03);
+    color: #fff; 
+}
+
+.navigation a.favorites {
+    background-color: #2a4a5f;
+}
+
+.navigation a.favorites:hover {
+    transform: scale(1.03);
+}
+
+.navigation a.profile {
+    background-color: #b92419;
+    text-align: center;
+}
+
+.navigation a.profile:hover {
+    transform: scale(1.03);
+}
+
+.navigation a.pending {
+    background-color: #32566e;
+}
+
+.navigation a.pending:hover {
+    transform: scale(1.03);
+}
